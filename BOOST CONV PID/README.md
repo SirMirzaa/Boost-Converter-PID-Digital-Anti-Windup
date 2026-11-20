@@ -1,9 +1,9 @@
-# Boost Converter 24 V → 48 V dengan Kontrol PID Digital + Anti-Windup
+# Boost Converter 24 V → 48 V PID Digital + Anti-Windup
 
-PBL Elektronika Daya (paket **PBL-B**; Simulink + hardware UAS) digabung dengan Praktikum IoT — Kelompok 4,
+PBL Elektronika Daya
 Teknologi Rekayasa Instrumentasi dan Kontrol, SV UGM.
 
-| Parameter | Nilai (ditetapkan dosen) |
+| Parameter | Nilai|
 |---|---|
 | Vin | 24 V (uji 20 / 24 / 28 V) |
 | Vref | 48 V |
