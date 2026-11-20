@@ -1,10 +1,5 @@
-%% param_boost_pblb.m
-% Parameter dan perhitungan perancangan Boost Converter PBL-B (24 V -> 48 V, 20 kHz).
-% Jalankan SEBELUM membuka/menjalankan model Simulink. Semua blok membaca variabel
-% dari workspace ini, jadi nilai cukup diubah di satu tempat.
 clear; clc;
-
-%% 1. Spesifikasi dosen (TIDAK BOLEH DIUBAH)
+%% 1. Spesifikasi
 Vin_nom = 24;            % V
 Vin_uji = [20 24 28];    % V
 Vref    = 48;            % V
@@ -56,7 +51,7 @@ Ts_ctrl = 1/fsw;  % 50 us: PID diupdate sekali per periode PWM (sama dgn firmwar
 T_sim   = 0.1;    % s
 D_min   = 0;  D_max = 0.85;
 
-% Titik awal tuning (hasil analisis loop + simulasi switching, BUKAN parameter akhir)
+% Titik awal tuning 
 Kp0 = 1.4e-3;  Ki0 = 6.1;  Kd0 = 6.6e-6;  N0 = 1e4;  Kb0 = 4000;
 Kp = Kp0; Ki = Ki0; Kd = Kd0; N = N0; Kb = Kb0;   % ubah saat tuning
 
