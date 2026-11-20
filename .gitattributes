@@ -1,0 +1,5 @@
+*.slx      binary
+*.pdsprj   binary
+*.pdf      binary
+*.png      binary
+*.kicad_*  text eol=lf

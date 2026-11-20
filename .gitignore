@@ -1,0 +1,28 @@
+# MATLAB / Simulink
+*.asv
+*.autosave
+*.slxc
+*.mexw64
+slprj/
+*.slx.original
+*.slx.r20*
+codegen/
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+_autosave-*
+\#auto_saved_files\#
+# Proteus
+*.pdsbak
+Project Backups/
+*.workspace
+# Firmware / Arduino
+build/
+.pio/
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
