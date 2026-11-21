@@ -46,7 +46,7 @@ ESR_C  = 0.03;    % ohm
 Vc0    = Vin_nom; % V, tegangan awal C (= Vin lewat dioda saat start)
 
 %% 4. Simulasi dan kontrol
-Ts_pwr  = 2e-7;   % s, step powergui (min. 250 titik per periode PWM)
+Ts_pwr  = 5e-7;   % s, step powergui (min. 250 titik per periode PWM)
 Ts_ctrl = 1/fsw;  % 50 us: PID diupdate sekali per periode PWM (sama dgn firmware)
 T_sim   = 0.1;    % s
 D_min   = 0;  D_max = 0.85;
