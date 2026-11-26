@@ -1,6 +1,4 @@
 # Boost Converter dengan Kontrol PID Digital + Anti-Windup
-
-PBL Elektronika Daya digabung dengan Praktikum IoT — Kelompok 4,
 Teknologi Rekayasa Instrumentasi dan Kontrol, SV UGM.
 
 Proyek ini punya dua tahap dengan spesifikasi berbeda:
